@@ -1,0 +1,101 @@
+.home {
+    height: 100vh;
+    padding-top: 100px;
+    overflow: hidden;
+}
+
+.home-container {
+    height: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.btns {
+    display: flex;
+    gap: 1.2rem;
+    margin-top: 2rem;
+    justify-content: center;
+}
+
+.home-container h4 {
+    font-size: 1.5rem;
+}
+
+
+.home-container .me {
+    width: 300px;
+    height: 310px;
+    background: linear-gradient(var(--color-primary), transparent);
+    border-radius: 12rem 12rem 0 0;
+    margin: 40px auto;
+    padding: 1rem 1.5rem 1.5rem 1.5rem;
+    overflow: hidden;
+}
+
+.me img {
+    border-radius: 50%;
+}
+
+.scroll-down {
+    position: absolute;
+    bottom: 80px;
+    right: -35px;
+    transform: rotate(90deg);
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.scroll-down:hover {
+    color: var(--color-white);
+}
+
+.home-container .home-socials {
+    font-size: 25px;
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    align-items: center;
+}
+
+.home-socials::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+    margin-top: .5rem;
+}
+
+@media (max-width: 1024px) {
+    .home {
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .home {
+        height: auto;
+        padding-top: 5rem;
+    }
+
+    .home-container .home-socials,
+    .scroll-down {
+        display: none;
+    }
+
+    .home h1 {
+        font-size: 2rem;
+    }
+
+    .home-container .me {
+        max-width: 100%;
+        width: 300px;
+        height: 380px;
+
+    }
+}

@@ -1,0 +1,161 @@
+/* Import Google Fonts: Montserrat and Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Reset default browser styles and set base styles */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+/* Define CSS variables for colors and transitions */
+:root {
+  --color-bg: #1f1f38;
+  /* Main background color */
+  --color-bg-variant: #2c2c6c;
+  /* Variant background color */
+  --color-primary: #4db5ff;
+  /* Primary accent color */
+  --color-primary-variant: rgba(77, 181, 255, 0.4);
+  /* Transparent primary */
+  --color-white: #fff;
+  /* White color */
+  --color-light: rgba(255, 255, 255, 0.6);
+  /* Light text color */
+  --transition: all 0.4s ease;
+  /* Transition for interactive elements */
+}
+
+/* Body styles: font, background, text color */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-white);
+  line-height: 1.7;
+  background-image: url("./assets/bg-texture.png");
+  /* Texture background */
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Container class for layout */
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Heading styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+/* Section padding for spacing */
+section {
+  padding-top: 2rem;
+}
+
+/* Light text utility class */
+.text-light {
+  color: var(--color-light);
+}
+
+/* Link styles and hover effect */
+a {
+  color: var(--color-primary);
+  transition: var(--transition);
+}
+
+a:hover {
+  color: var(--color-white);
+}
+
+/* Button styles */
+.btn,
+.btn-primary {
+  width: max-content;
+  display: inline-block;
+  padding: 0.75rem 1.2rem;
+  border: 1px solid var(--color-primary);
+  border-radius: 0.4rem;
+  cursor: pointer;
+  transition: var(--transition);
+  margin-right: 10px;
+}
+
+/* Button hover effect */
+.btn:hover {
+  background-color: white;
+  color: var(--color-bg);
+  border-color: transparent;
+}
+
+/* Primary button variant */
+.btn-primary {
+  background-color: var(--color-primary);
+  color: var(--color-bg);
+}
+
+/* Image styles for responsiveness */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Paragraph spacing */
+p {
+  margin-bottom: 1.5rem;
+}
+
+.top-section h2 {
+  text-align: center;
+  color: var(--color-primary);
+  margin-bottom: 3rem;
+}
+
+.top-section h5 {
+  text-align: center;
+  color: var(--color-light);
+  margin-bottom: 1rem;
+}
+
+/* Responsive styles for tablets */
+@media (max-width: 1024px) {
+  .container {
+    width: 85%;
+  }
+
+  section {
+    padding-top: 10rem;
+  }
+}
+
+/* Responsive styles for mobile */
+@media (max-width: 600px) {
+  .container {
+    width: 90%;
+  }
+
+  section {
+    padding-top: 50rem;
+  }
+
+  .top-section h2 {
+    margin-bottom: 2rem;
+  }
+}
