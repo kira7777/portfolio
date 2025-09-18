@@ -17,26 +17,26 @@ function Services() {
             <MdDesignServices className="icon" />
             <h3>web design</h3>
             <p className="text-light">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi,
-              consequatur!
+              I design clean, responsive websites that combine creativity and
+              usability to elevate digital experiences beautifully.
             </p>
           </div>
 
           <div className="card">
             <IoIosRocket className="icon" />
-            <h3>web design</h3>
+            <h3>Backend Development</h3>
             <p className="text-light">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi,
-              consequatur!
+              I build secure, scalable server-side applications using PHP and
+              Laravel to power dynamic, data-driven web experiences.
             </p>
           </div>
 
           <div className="card about-card">
             <FaCode className="icon" />
-            <h3>web design</h3>
-            <p className="text-light">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi,
-              consequatur!
+            <h3>UI Prototyping</h3>
+            <p>
+              I create interactive prototypes in Figma to visualize user flows
+              and refine interface design efficiently.
             </p>
           </div>
         </article>

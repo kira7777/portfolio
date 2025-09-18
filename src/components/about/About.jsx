@@ -23,13 +23,13 @@ function About() {
           <div className="about-cards">
             <div className="about-card">
               <FaAward className="about-icon" />
-              <h5>Experience</h5>
-              <small>2+ years</small>
+              <h5>Degree</h5>
+              <small>Bachelor's in Computer Science A+</small>
             </div>
             <div className="about-card">
               <FaUsers className="about-icon" />
-              <h5>Clients</h5>
-              <small>10+ satisfied clients</small>
+              <h5>Experience</h5>
+              <small>1+ years</small>
             </div>
             <div className="about-card">
               <PiFoldersLight className="about-icon" />

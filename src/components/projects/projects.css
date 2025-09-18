@@ -30,7 +30,7 @@
 }
 
 .portfolio-item-img img {
-    width: 100%;
+    width: 300px;
     height: 200px;
     object-fit: cover;
     transition: var(--transition);

@@ -1,54 +1,55 @@
 import React from "react";
 import "./projects.css";
 import IMG1 from "../../assets/portfolio1.jpg";
-import IMG2 from "../../assets/portfolio2.jpg";
+import IMG2 from "../../assets/portfolio11.jpg";
 import IMG3 from "../../assets/portfolio3.jpg";
-import IMG4 from "../../assets/portfolio4.jpg";
+import IMG4 from "../../assets/portfolio33.jpg";
 import IMG5 from "../../assets/portfolio5.png";
-import IMG6 from "../../assets/portfolio6.jpg";
+import IMG6 from "../../assets/portfolio4.jpg";
 
 const portfolioData = [
   {
     id: 1,
     image: IMG1,
-    title: "Portfolio Item 1",
-    github: "https://github.com/project1",
-    demo: "https://demo1.com",
+    title: "Educational Website",
+    github: "https://github.com/kira7777/-Educational-School-.git",
+    demo: "https://educational-school-8m13.vercel.app/",
   },
   {
     id: 2,
     image: IMG2,
-    title: "Portfolio Item 2",
-    github: "https://github.com/project2",
-    demo: "https://demo2.com",
+    title: "Automotive Service Center",
+    github:
+      "https://github.com/kira7777/Cars-_-Shop-using-Front-end-web-site.git",
+    demo: "https://cars--shop-using-front-end-web-site.vercel.app/theme1/sport_cars.html",
   },
   {
     id: 3,
     image: IMG3,
-    title: "Portfolio Item 3",
-    github: "https://github.com/project3",
-    demo: "https://demo3.com",
+    title: "leon company",
+    github: "https://github.com/kira7777/leon-company.git",
+    demo: "https://leon-company-ayst.vercel.app/",
   },
   {
     id: 4,
     image: IMG4,
-    title: "Portfolio Item 4",
-    github: "https://github.com/project4",
-    demo: "https://demo4.com",
+    title: "Food Lover",
+    github: "https://github.com/kira7777/Food-Lover-Logo.git",
+    demo: "https://food-lover-logo.vercel.app/",
   },
   {
     id: 5,
     image: IMG5,
-    title: "Portfolio Item 5",
-    github: "https://github.com/project5",
-    demo: "https://demo5.com",
+    title: "Product Management System",
+    github: "https://github.com/kira7777/Product-management-System.git",
+    demo: "https://product-management-system-nine.vercel.app/",
   },
   {
     id: 6,
     image: IMG6,
-    title: "Portfolio Item 6",
-    github: "https://github.com/project6",
-    demo: "https://demo6.com",
+    title: "iphone store",
+    github: "https://github.com/kira7777/iphone.git",
+    demo: "https://iphone-eta-five.vercel.app/",
   },
 ];
 
