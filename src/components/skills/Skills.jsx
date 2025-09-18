@@ -11,7 +11,7 @@ import nodejs from "../../assets/nodejs.svg";
 import reactjs from "../../assets/react.svg";
 import tailwind from "../../assets/tailwindcss.svg";
 import php from "../../assets/php.svg";
-import laravel from "../../assets/laravel.svg";
+import laravel from "../../assets/Laravel.svg";
 import mongodb from "../../assets/mongodb.svg";
 
 const skillsData = [
